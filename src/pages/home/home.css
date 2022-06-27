@@ -1,0 +1,26 @@
+:root {
+  --clr-light-grey: #6b6b6b;
+}
+.homeContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.homeTitle {
+  width: 1024px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.homeSubTitle {
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  color: var(--clr-light-grey);
+}
+.homeDesc {
+  color: var(--clr-light-grey);
+}

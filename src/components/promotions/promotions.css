@@ -1,0 +1,47 @@
+.largePromotion {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.largePromotionItem {
+  color: white;
+  position: relative;
+}
+.promotionImgContainer {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.8017241379310345) 0%,
+    rgba(37, 37, 37, 0.36724137931034484) 55%,
+    rgba(255, 255, 255, 0.15172413793103445) 100%
+  );
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+.promoText {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.62);
+  padding: 0.5em;
+}
+/* .promoText {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+} */
+.promoProperties {
+  font-weight: 100;
+  text-shadow: 3px 2px 4px #000000;
+}
+
+.promoCountry {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
