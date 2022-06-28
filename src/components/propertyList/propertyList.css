@@ -1,3 +1,4 @@
+/* Property List container */
 .pList {
   width: 100%;
   max-width: 1024px;
@@ -5,9 +6,11 @@
   gap: 20px;
 }
 
+/* Single Property List container */
 .pListItem {
+  flex: 1;
   border-radius: 5px;
-  width: 10em;
+  /* width: 10em; */
   overflow: hidden;
 }
 
@@ -28,4 +31,13 @@
 .pListItem img:hover {
   opacity: 0.5;
   cursor: pointer;
+}
+
+@media screen and (max-width: 677px) {
+  .pList {
+    gap: 0.5em;
+    font-size: 0.95em;
+  }
+  .pListItem {
+  }
 }

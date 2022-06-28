@@ -25,3 +25,15 @@
   bottom: 20px;
   left: 20px;
 }
+
+@media screen and (max-width: 677px) {
+  .featuredTitles {
+    font-size: 0.7em;
+    bottom: 15px;
+    left: 10px;
+  }
+
+  .featuredItem {
+    height: max-content;
+  }
+}

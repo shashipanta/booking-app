@@ -10,7 +10,8 @@
   color: white;
   position: relative;
 }
-.promotionImgContainer {
+
+/* .promotionImgContainer {
   background: rgb(255, 255, 255);
   background: radial-gradient(
     circle,
@@ -18,7 +19,8 @@
     rgba(37, 37, 37, 0.36724137931034484) 55%,
     rgba(255, 255, 255, 0.15172413793103445) 100%
   );
-}
+} */
+
 img {
   width: 100%;
   object-fit: cover;
