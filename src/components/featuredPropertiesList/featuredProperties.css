@@ -1,0 +1,74 @@
+.fp {
+  width: 100%;
+  max-width: var(--max-container-width);
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.fpItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+
+.fpImgContainer {
+  width: 100%;
+  height: 200px;
+}
+
+.fpImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fpName {
+  font-weight: bold;
+}
+
+.fpCity {
+  font-size: 14px;
+  color: var(--clr-light-grey);
+  font-weight: 300;
+  margin-top: -6px;
+  margin-bottom: 6px;
+}
+
+.fpPrice {
+  font-weight: 500;
+}
+
+.fpRating {
+  display: flex;
+  align-items: center;
+  gap: .4em;
+}
+
+.fpRating > button {
+  background-color: #003580;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px 5px 5px 0;
+  margin-right: 0.5em;
+  font-weight: bold;
+}
+
+.fpRating > span {
+  font-size: 14px;
+}
+
+.fpReviewNo {
+  color: var(--clr-light-grey);
+  font-size: 12px !important;
+
+}
+
+@media screen and (max-width: 677px) {
+  .fp {
+    font-size: 0.8em;
+    gap: 0.4em;
+  }
+}
