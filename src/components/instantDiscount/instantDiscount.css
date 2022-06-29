@@ -1,0 +1,51 @@
+.idContainer {
+  --border-color: rgb(231, 231, 231);
+  box-sizing: border-box;
+  width: 100%;
+  background-image: url("https://t-cf.bstatic.com/static/img/genius-banner-world-bg/2b5cdbad7b92073bc396b8b59d0bb421b3a01cba.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  max-width: var(--max-container-width);
+  border: solid 1px var(--border-color);
+  border-radius: 5px;
+  padding: 2em;
+  display: flex;
+}
+
+.idImg {
+  background-image: url("https://t-cf.bstatic.com/static/img/genius-globe-with-badge_desktop/d807514761b3684aedebced9265c5548a063b7a0.png");
+  width: 160px;
+  aspect-ratio: 1/1;
+  background-repeat: no-repeat;
+  margin-left: 0.5em;
+}
+
+/* Right content for Instant Discount Section */
+.idContent {
+  width: 30em;
+}
+
+.links {
+  margin-top: 2em;
+  display: flex;
+  gap: 1em;
+}
+
+.links button {
+  border: none;
+  background: transparent;
+  font-size: 1em;
+  font-weight: 500;
+  color: var(--clr-blue-primary);
+  width: fit-content;
+  padding: 0.4em 1em;
+}
+
+.links .outline {
+  border: solid 1px var(--clr-blue-primary);
+}
+
+.links button:hover {
+  background-color: var(--border-color);
+  cursor: pointer;
+}
