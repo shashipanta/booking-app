@@ -1,4 +1,7 @@
 :root {
+  --clr-blue-primary: #0071c2;
   --clr-light-grey: #6b6b6b;
   --padding-default: 0 1em;
+
+  box-sizing: border-box;
 }
