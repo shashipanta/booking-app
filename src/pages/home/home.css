@@ -1,6 +1,7 @@
 :root {
   --clr-light-grey: #6b6b6b;
   --default-padding: 0 0.5em;
+  --max-container-width: 1024px;
 }
 
 .homeContainer {
