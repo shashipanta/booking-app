@@ -1,0 +1,75 @@
+.findInfoContainer {
+  --border-color: rgb(231, 231, 231);
+  --clr-golden: #febb02;
+  max-width: var(--max-container-width);
+  height: 15em;
+  box-sizing: border-box;
+  border: solid 1px var(--border-color);
+  border-radius: 5px;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  position: relative;
+}
+
+/* left yellow bubble */
+.infoLeftImg {
+	width: 5em;
+	aspect-ratio: 1/1;
+	background: var(--clr-golden);
+	border-radius: 50%;
+	position: absolute;
+	top: 65%;
+	left: -20px;
+}
+
+/* MOVING INFORMATION */
+.movingInfo {
+
+  margin-top: -1.5em;
+  margin-left: 2.5em;
+
+}
+
+
+.infoBlueContainer {
+	background: var(--clr-blue-primary);
+	width: 400px;
+	height: 400px;
+	padding-left: 5em;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	justify-content: center;
+	text-align: left;
+	color: white;
+	border-radius: 50%;
+	position: relative;
+	z-index: 2;
+	box-sizing: border-box;
+}
+
+/* walking content of blue container */
+.infoBlueContainer span {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.infoRightImg {
+    width: 30%;
+}
+
+/* Cross button */
+.closeBtn {
+  top: 20px;
+  right: 40px;
+}
+
+.infoBlueContainer button {
+  background: white;
+  border-radius: 0px;
+  width: 50%;
+  margin-top: 1em;
+}
