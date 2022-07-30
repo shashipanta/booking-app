@@ -11,20 +11,23 @@
   position: relative;
 }
 
-/* .promotionImgContainer {
-  background: rgb(255, 255, 255);
+.promotionImgContainer {
+  /* background: rgb(255, 255, 255);
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 0.8017241379310345) 0%,
     rgba(37, 37, 37, 0.36724137931034484) 55%,
     rgba(255, 255, 255, 0.15172413793103445) 100%
-  );
-} */
+  ); */
+  width: 99%;
+  overflow: hidden;
+}
 
 img {
   width: 100%;
   object-fit: cover;
 }
+
 .promoText {
   position: absolute;
   top: 20px;
@@ -46,4 +49,10 @@ img {
   display: flex;
   align-items: center;
   gap: 0.5em;
+}
+
+.largePromotionItem:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 200ms ease-in;
 }

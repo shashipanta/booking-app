@@ -1,3 +1,5 @@
+import Button from "../ui/buttons/Button";
+import OutlineButton from "../ui/buttons/OutlineButton";
 import React from "./instantDiscount.css";
 
 const InstantDiscount = () => {
@@ -11,8 +13,10 @@ const InstantDiscount = () => {
           Logo to save.
         </p>
         <div className="links">
-          <button className="signIn outline">Sign In</button>
-          <button className="register">Register</button>
+          {/* <button className="signIn outline">Sign In</button> */}
+          <OutlineButton btnName="Sign In"/>
+          <Button btnName="Register" />
+          {/* <button className="register">Register</button> */}
         </div>
       </div>
     </div>

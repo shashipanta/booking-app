@@ -1,16 +1,3 @@
-:root {
-  --clr-light-golden: #febb02;
-  --bg-light-blue: #003580;
-  --clr--border: #949494;
-  --clr-light-grey: hsla(0, 0%, 100%, 0.1);
-  --clr-hover-menu: #1a4a8d;
-  --yellow-border: solid 4px var(--clr-light-golden);
-  --yellow-border-size: -4px;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .header {
   background-color: var(--bg-light-blue);
   color: white;
@@ -108,7 +95,7 @@
 
 .headerSearchItem .headerBtn {
   width: 100px;
-  height: 3.6em;
+  height: 100%;
 }
 /* .headerSearchItem {
   display: flex;
@@ -121,7 +108,7 @@
 }
 
 .headerSearchText {
-  color: black;
+  color: #3f3f3f;
   cursor: pointer;
 }
 
@@ -234,6 +221,7 @@
 
   .headerIcon {
     color: lightgray;
+    font-size: 1.5em;
   }
 
   .headerSearchItem {
@@ -250,6 +238,8 @@
     font-size: 1em;
   }
 
+  /* STICKY SEARCH HEADER  */
+
   .headerSearchInput {
     font-size: 1em;
     color: black;
@@ -261,10 +251,6 @@
     display: flex;
   }
 
-  .headerSearchItem .headerBtn {
-    width: 100px;
-    height: 3.6em;
-  }
   .headerSearchItem {
     position: relative;
     display: flex;

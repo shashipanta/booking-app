@@ -12,7 +12,7 @@ const FeaturedProperties = () => {
           />
         </div>
         <span className="fpName">Hotel Mahadev</span>
-        <span className="fpCity">Kathmandu</span>
+        <span className="fpCity">Kailash</span>
         <span className="fpPrice">Starting from $100</span>
         <div className="fpRating">
           <button>8.9</button>
@@ -28,9 +28,9 @@ const FeaturedProperties = () => {
             alt="clean and white room"
           />
         </div>
-        <span className="fpName">Hotel Mahadev</span>
-        <span className="fpCity">Kathmandu</span>
-        <span className="fpPrice">Starting from $100</span>
+        <span className="fpName">Hotel GuruDev</span>
+        <span className="fpCity">Birgunj</span>
+        <span className="fpPrice">Starting from $2400</span>
         <div className="fpRating">
           <button>8.9</button>
           <span className="fpKeyword">Wonderful</span>
@@ -45,7 +45,7 @@ const FeaturedProperties = () => {
             alt="clean and white room"
           />
         </div>
-        <span className="fpName">Hotel Mahadev</span>
+        <span className="fpName">Hotel PatiDev</span>
         <span className="fpCity">Kathmandu</span>
         <span className="fpPrice">Starting from $100</span>
         <div className="fpRating">

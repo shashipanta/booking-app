@@ -2,10 +2,12 @@ import React from "react";
 import Featured from "../../components/featured/Featured";
 import FeaturedProperties from "../../components/featuredPropertiesList/FeaturedProperties";
 import Header from "../../components/header/Header";
+import Info from "../../components/infobar/Info";
 import InstantDiscount from "../../components/instantDiscount/InstantDiscount";
 import Navbar from "../../components/navbar/Navbar";
 import Promotions from "../../components/promotions/Promotions";
 import PropertyList from "../../components/propertyList/PropertyList";
+import Subscription from "../../components/subscription/Subscription";
 import "./home.css";
 
 const Home = () => {
@@ -22,6 +24,8 @@ const Home = () => {
         </div>
         <Featured />
         <InstantDiscount />
+        <Subscription />
+        <Info />
         <h1 className="homeTitle">Home Guests Love</h1>
         <FeaturedProperties />
         <h1 className="homeTitle">Browse by property type</h1>

@@ -31,21 +31,3 @@
   gap: 1em;
 }
 
-.links button {
-  border: none;
-  background: transparent;
-  font-size: 1em;
-  font-weight: 500;
-  color: var(--clr-blue-primary);
-  width: fit-content;
-  padding: 0.4em 1em;
-}
-
-.links .outline {
-  border: solid 1px var(--clr-blue-primary);
-}
-
-.links button:hover {
-  background-color: var(--border-color);
-  cursor: pointer;
-}

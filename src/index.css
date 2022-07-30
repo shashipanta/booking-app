@@ -1,7 +1,17 @@
 :root {
   --clr-blue-primary: #0071c2;
   --clr-light-grey: #6b6b6b;
+  --clr-light-golden: #febb02;
+  --bg-light-blue: #003580;
+  --clr--border: #949494;
+  --clr-light-grey: hsla(0, 0%, 100%, 0.1);
+  --clr-hover-menu: #1a4a8d;
+  --yellow-border: solid 4px var(--clr-light-golden);
+  --yellow-border-size: -4px;
   --padding-default: 0 1em;
 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }

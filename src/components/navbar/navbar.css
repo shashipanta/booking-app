@@ -23,10 +23,18 @@
   cursor: pointer;
 }
 
-.navButton {
+.navItems .navButton {
+  box-sizing: border-box !important;
+  border: solid 1px var(--clr-blue-primary);
   margin-left: 20px;
   border: none;
+  border-radius: 0;
   padding: 5px 10px;
   cursor: pointer;
   color: #003580;
+  background: white;
+}
+
+.navItems .navButton:hover {
+  background: rgb(216, 216, 216);
 }

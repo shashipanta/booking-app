@@ -38,6 +38,7 @@ const Header = ({ type }) => {
       };
     });
   };
+
   return (
     <div className="header">
       <div
