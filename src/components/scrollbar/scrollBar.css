@@ -1,0 +1,68 @@
+/* moving info container */
+.infoWindow {
+  width: max-content;
+  height: 1.5em;
+  /* background: green; */
+  overflow: hidden;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.infoWindow li {
+  text-decoration: 2px underline var(--clr-golden);
+  /* background: red; */
+  height: 100%;
+}
+
+.scrollText{
+    /* transform: translateY(-6em); */
+    /* -moz-transform: translateY(-1.4em);
+    -webkit-transform: translateY(-1.4em); */
+
+    /* animation */
+    /* -moz-animation: vertical-scroll 4s linear infinite;
+    -webkit-animation: vertical-scroll 4s linear infinite; */
+    /* animation-delay: 2s; */
+    animation: vertical-scroll 8s ease-in-out infinite;
+    animation-delay: 5s;
+    transition: all 1s ease-in;
+}
+
+/* @-moz-keyframes vertical-scroll {
+    from {
+        -moz-transform: translateY(1.4em);
+    }
+    to {
+        -moz-transform: translateY(-1.4em);
+    }
+}
+
+@-webkit-keyframes vertical-scroll {
+    from {
+        -moz-transform: translateY(1.4em);
+    }
+    to {
+        -moz-transform: translateY(-1.4em);
+    }
+} */
+
+@keyframes vertical-scroll {
+    20% {
+        transform: translateY(-1.5em);
+    }
+    40% {
+        transform: translateY(-3em);
+    }
+    60% {
+        transform: translateY(-4.5em);
+    }
+    80%{
+        transform: translateY(-6em);
+    }
+    100% {
+        transform: translateY(-7.5em);
+    }
+    240% {
+        transform: translateY(-9em);
+    }
+}
