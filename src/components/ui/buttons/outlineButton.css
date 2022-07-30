@@ -1,0 +1,15 @@
+button .outline{
+  border: none;
+  background: transparent;
+  font-size: 1em;
+  font-weight: 500;
+  /* color: var(--clr-blue-primary); */
+  width: fit-content;
+  padding: 0.4em 1em;
+  cursor: pointer;
+}
+
+.outline {
+  border: solid 1px var(--clr-blue-primary);
+  border-radius: 0px;
+}
