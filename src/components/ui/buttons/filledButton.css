@@ -1,0 +1,5 @@
+.filledBtn {
+    background: white;
+    color: var(--bg-light-blue);
+    border-radius: 0px;
+}
