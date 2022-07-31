@@ -1,0 +1,56 @@
+.navlist-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.navlist__content {
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+    max-height: 15em;
+    flex-wrap: wrap;
+
+}
+
+.navlist__header {
+    display: flex;
+    gap: 1em;
+}
+
+/* buttons inside the navList header */
+.navlist__header button {
+    padding: 0.4em 1em;
+    border-radius: 20px;
+}
+
+.navlist__header .active-btn {
+    outline: 1px solid var(--clr-blue-primary);
+    box-shadow: 0 0 0 4px rgba(0,113,194,.24)
+}
+
+.navlist__header button:hover {
+    background: rgba(0, 0, 0, .06);
+}
+
+.navlist__singleContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.navlist__singleContent a {
+    font-weight: 500;
+    color: #262626;
+    text-decoration: none;
+}
+
+.navlist__singleContent span{
+    font-size: .9em;
+    color: #6b6b6b;
+}
+
+.navlist__singleContent a:hover {
+    text-decoration: underline;
+}
