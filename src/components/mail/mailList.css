@@ -1,0 +1,59 @@
+.mail__container {
+    box-sizing: border-box;
+    background: var(--bg-light-blue);
+    margin: 0;
+    width: 100%;
+    color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.mail__container .mail__content {
+	width: 100%;
+	max-width: 1024px;
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	align-items: center;
+}
+
+.mail__container .mail__subTitle {
+    color: #bdbdbd;
+    margin-top: -1.5em;
+}
+
+.cta {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    gap: 1em;
+    min-height: 2em;
+    font-size: 1.2rem;
+}
+
+.cta * {
+    border: none;
+    border-radius: 4px;
+}
+
+.mail__container .mail__content input {
+    flex-grow: 3;
+    font-size: 1em;
+    padding: 0 .5em;
+}
+
+.mail__container .cta .outline {
+    background: var(--clr-blue-primary);
+    color: white;
+    flex-grow: 1;
+}
+
+.mail__container .checkBox {
+    max-width: 500px;
+    gap: 1em;
+    font-size: 1.2em;
+    line-height: 1em;
+}
