@@ -9,6 +9,7 @@ import Promotions from "../../components/promotions/Promotions";
 import PropertyList from "../../components/propertyList/PropertyList";
 import Subscription from "../../components/subscription/Subscription";
 import NavList from "../../components/navlist/NavList";
+import MailList from "../../components/mail/MailList";
 import "./home.css";
 
 const Home = () => {
@@ -36,6 +37,7 @@ const Home = () => {
         <h1 className="homeTitle">Destinations We Love</h1>
         <NavList />
       </div>
+    <MailList />
     </div>
   );
 };
