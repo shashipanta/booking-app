@@ -6,6 +6,7 @@
   --clr--border: #949494;
   --clr-light-grey: hsla(0, 0%, 100%, 0.1);
   --clr-hover-menu: #1a4a8d;
+  --clr-hover-button: rgb(216, 216, 216);
   --yellow-border: solid 4px var(--clr-light-golden);
   --yellow-border-size: -4px;
   --padding-default: 0 1em;

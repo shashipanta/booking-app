@@ -30,7 +30,7 @@ const FindInfo = () => {
                     <Button btnName="Discover more" />
                 </div>
                 <div className="infoRightImg">
-                    <img data-src="https://t-cf.bstatic.com/static/img/bh/awareness/campaign/bh_aw_cpg_main_image/b0f5755d0651acbe9d3f3785a874258150b4393b.png"  src="https://t-cf.bstatic.com/static/img/bh/awareness/campaign/bh_aw_cpg_main_image/b0f5755d0651acbe9d3f3785a874258150b4393b.png"></img>
+                    <img data-src="https://t-cf.bstatic.com/static/img/bh/awareness/campaign/bh_aw_cpg_main_image/b0f5755d0651acbe9d3f3785a874258150b4393b.png"  src="https://t-cf.bstatic.com/static/img/bh/awareness/campaign/bh_aw_cpg_main_image/b0f5755d0651acbe9d3f3785a874258150b4393b.png" alt=""></img>
                 </div>
 
             </div>

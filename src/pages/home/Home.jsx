@@ -8,6 +8,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Promotions from "../../components/promotions/Promotions";
 import PropertyList from "../../components/propertyList/PropertyList";
 import Subscription from "../../components/subscription/Subscription";
+import NavList from "../../components/navlist/NavList";
 import "./home.css";
 
 const Home = () => {
@@ -32,6 +33,8 @@ const Home = () => {
         <PropertyList />
         <h1 className="homeTitle">Get Inspiration for Your Next Trip</h1>
         <Promotions />
+        <h1 className="homeTitle">Destinations We Love</h1>
+        <NavList />
       </div>
     </div>
   );
