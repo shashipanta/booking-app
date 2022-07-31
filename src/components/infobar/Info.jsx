@@ -6,6 +6,7 @@ import ScrollBar from "../scrollbar/ScrollBar";
 
 
 const FindInfo = () => {
+    const scrollListItems = ['homes', 'villas', 'condo hotels', 'appartments', 'vacation homes', 'cottages' ];
     const [showContainer, setShowContainer ] = useState(true);
 
     function handleShowContainer(showContainer) {
@@ -24,7 +25,7 @@ const FindInfo = () => {
                 <div className="infoBlueContainer">
                     <span>Find </span>
                     {/* Automatically Scrolling content  */}
-                    <ScrollBar />
+                    <ScrollBar scrollListItems = {scrollListItems}/>
                     <span>for your next trip.</span>
                     <Button btnName="Discover more" />
                 </div>
