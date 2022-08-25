@@ -1,3 +1,4 @@
+@import "./../../index.css";
 .fp {
   width: 100%;
   max-width: var(--max-container-width);

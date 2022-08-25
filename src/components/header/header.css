@@ -203,6 +203,8 @@
     border: none;
     padding: 10px;
     cursor: pointer;
+    /* remove the default border-radius */
+    border-radius: 2px;
   }
 
   /* search bar */

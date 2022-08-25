@@ -1,9 +1,10 @@
 /* Property List container */
 .pList {
-  width: 100%;
-  max-width: 1024px;
-  display: flex;
-  gap: 20px;
+	width: 100%;
+	max-width: 1024px;
+	display: flex;
+	gap: 20px;
+	padding-left: 1em;
 }
 
 /* Single Property List container */
@@ -33,11 +34,88 @@
   cursor: pointer;
 }
 
+
+/* for slick slide */
+.slick-list {
+  max-width: 1024px;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0 1em;
+	box-sizing: border-box;
+}
+
+.slick-slide {
+  max-width: 16em;
+}
+
+.slick-slide div .pListItem {
+  max-width: 15em;
+}
+
+
+.slick-prev::before, .slick-next::before {
+	font-family: 'slick';
+	font-size: 30px;
+	line-height: 1;
+	/* opacity: .75; */
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.slick-arrow .slick-prev, .slick-arrow .slick-next {
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	top: 50%;
+	display: block;
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	transform: translate(0, -50%);
+	cursor: pointer;
+	/* color: transparent; */
+	border: none;
+	outline: none;
+	/* background: transparent; */
+	z-index: 2;
+}
+
+.slick-arrow.slick-prev {
+	background: black;
+	border-radius: 50%;
+}
+
+.slick-arrow.slick-next {
+	background: black;
+	border-radius: 50%;
+	right: -10px;
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+	background: var(--clr-blue-primary) !important;
+}
+
 @media screen and (max-width: 677px) {
+  /* slick slide */
+  .slick-list {
+    max-width: 650px;
+  }
+
   .pList {
     gap: 0.5em;
     font-size: 0.95em;
   }
-  .pListItem {
+  .slick-slide {
+    max-width: 10em;
   }
+
+  .slick-slide div .pListItem {
+    max-width: 9em;
+  }
+
 }

@@ -1,9 +1,23 @@
 import React from "react";
+import Slider from "react-slick";
 import "./propertyList.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 const PropertyList = () => {
+  const settings = {
+    infinite: false,
+    speed: 500,
+    dots: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: false,
+  }
   return (
+    <>
     <div className="pList">
+    <Slider {...settings}>
       <div className="pListItem">
         <img
           src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o="
@@ -70,7 +84,9 @@ const PropertyList = () => {
           <p className="pListNo">426,626 hotels</p>
         </div>
       </div>
+    </Slider>
     </div>
+    </>
   );
 };
 
