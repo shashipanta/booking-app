@@ -44,7 +44,11 @@
 .fpRating {
   display: flex;
   align-items: center;
-  gap: .4em;
+  gap: 0.4em;
+}
+
+.fpButton:hover {
+  background: var(--bg-light-blue);
 }
 
 .fpRating > button {
@@ -64,7 +68,6 @@
 .fpReviewNo {
   color: var(--clr-light-grey);
   font-size: 12px !important;
-
 }
 
 @media screen and (max-width: 677px) {

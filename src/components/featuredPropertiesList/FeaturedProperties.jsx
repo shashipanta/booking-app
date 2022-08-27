@@ -1,4 +1,4 @@
-import React from "./featuredProperties.css";
+import "./featuredProperties.css";
 
 const FeaturedProperties = () => {
   return (
@@ -15,7 +15,7 @@ const FeaturedProperties = () => {
         <span className="fpCity">Kailash</span>
         <span className="fpPrice">Starting from $100</span>
         <div className="fpRating">
-          <button>8.9</button>
+          <button className="fpButton">8.9</button>
           <span className="fpKeyword">Excellent</span>
           <span className="fpReviewNo">712 reviews</span>
         </div>
@@ -32,7 +32,7 @@ const FeaturedProperties = () => {
         <span className="fpCity">Birgunj</span>
         <span className="fpPrice">Starting from $2400</span>
         <div className="fpRating">
-          <button>8.9</button>
+          <button className="fpButton">8.9</button>
           <span className="fpKeyword">Wonderful</span>
           <span className="fpReviewNo">1,024 reviews</span>
         </div>
@@ -49,7 +49,7 @@ const FeaturedProperties = () => {
         <span className="fpCity">Kathmandu</span>
         <span className="fpPrice">Starting from $100</span>
         <div className="fpRating">
-          <button>8.9</button>
+          <button className="fpButton">8.9</button>
           <span className="fpKeyword">Exceptional</span>
           <span className="fpReviewNo">712 reviews</span>
         </div>
