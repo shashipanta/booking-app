@@ -1,0 +1,122 @@
+.searchItem {
+  display: flex;
+  gap: 1em;
+  border: var(--border-light-grey);
+  border-radius: 4px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.siImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+.siLinks {
+  display: flex;
+  font-size: 12px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  color: #0071c2;
+  font-weight: bolder;
+  gap: 0.5em;
+}
+
+.siTitle {
+  color: var(--clr-blue-primary);
+  font-size: 1.5em;
+}
+.siTitle:hover {
+  cursor: pointer;
+  color: var(--clr-dark-golden);
+}
+
+.siInfo {
+  display: inline-block;
+  font-size: small;
+  margin-top: 0.4em;
+}
+
+.siReview {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "reviewTitle reviewBtn" "totalReview reviewBtn";
+
+  grid-column-gap: 1em;
+}
+
+.siReviewTitle,
+.siTotalReview {
+  min-width: max-content;
+}
+
+.siReviewTitle {
+  grid-area: reviewTitle;
+  font-size: 1.2em;
+}
+
+.siTotalReview {
+  grid-area: totalReview;
+  color: var(--clr-light-grey);
+  font-size: 12px;
+  justify-self: end;
+}
+
+.siReviewBtn {
+  grid-area: reviewBtn;
+  background: var(--bg-light-blue);
+  color: white;
+  height: 50%;
+  border-radius: var(--br-button);
+  padding: 0.5em;
+  text-align: center;
+}
+
+.siReviewNext {
+  display: flex;
+  justify-content: right;
+  margin-top: 1em;
+}
+
+.siShowPriceBtn {
+  background: var(--clr-blue-primary);
+  color: white;
+  padding: 0.75em 0.9em;
+  border-radius: 0;
+}
+
+.siShowPriceBtn:hover {
+  background: var(--bg-light-blue);
+}
+
+.siRatingStar {
+  width: 10px;
+  fill: var(--clr-dark-golden);
+  height: 12px;
+  display: inline-block;
+}
+.siImgContainer {
+  position: relative;
+}
+
+.heartShape {
+  height: 24px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.heartShape svg {
+  stroke: white;
+  stroke-width: 4px;
+  fill: rgba(0, 0, 0, 0.2);
+  filter: drop-shadow(0 2px 1.5px rgba(0, 0, 0, 0.5));
+  height: 100%;
+  width: auto;
+}
+
+.heartShape:hover.heartShape svg {
+  fill: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
