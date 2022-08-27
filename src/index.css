@@ -2,15 +2,22 @@
   --clr-blue-primary: #0071c2;
   --clr-light-grey: #6b6b6b;
   --clr-light-golden: #febb02;
+  --clr-dark-golden: #ff8000;
   --bg-light-blue: #003580;
   --clr--border: #949494;
-  --clr-light-grey: hsla(0, 0%, 100%, 0.1);
+  /* --clr-light-grey: hsla(0, 0%, 100%, 0.1); */
   --clr-hover-menu: #1a4a8d;
   --clr-hover-button: rgb(216, 216, 216);
   --yellow-border: solid 4px var(--clr-light-golden);
   --yellow-border-size: -4px;
   --padding-default: 0 1em;
 
+  /* Border radius for fancy button */
+  --br-button: 5px 5px 5px 0;
+
+  /* Border color for containers */
+  --border-color: rgb(231, 231, 231);
+  --border-light-grey: 1px solid var(--border-color);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
