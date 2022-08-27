@@ -1,4 +1,11 @@
 input {
-    padding: 7px;
+  padding: 7px;
+}
 
+.validEmail {
+  border: solid 1px green;
+}
+
+.invalidEmail {
+  border: solid 1px green;
 }
