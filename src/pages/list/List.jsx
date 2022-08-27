@@ -2,10 +2,10 @@ import { useLocation } from "react-router-dom";
 import { useState } from "react";
 import Header from "../../components/header/Header";
 import Navbar from "../../components/navbar/Navbar";
-import Button from "../../components/ui/buttons/Button";
 import "./list.css";
 import { format, getOverlappingDaysInIntervals } from "date-fns";
 import { DateRange } from "react-date-range";
+import SearchItem from "../../components/searchItem/SearchItem";
 
 const List = () => {
   const location = useLocation();
@@ -97,7 +97,14 @@ const List = () => {
             </div>
             <button>Search</button>
           </div>
-          <div className="listResult"></div>
+          <div className="listResult">
+            <SearchItem />
+            <SearchItem />
+            <SearchItem />
+            <SearchItem />
+            <SearchItem />
+            <SearchItem />
+          </div>
         </div>
       </div>
     </div>
