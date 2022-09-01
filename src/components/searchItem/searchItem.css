@@ -26,6 +26,7 @@
   color: var(--clr-blue-primary);
   font-size: 1.5em;
 }
+
 .siTitle:hover {
   cursor: pointer;
   color: var(--clr-dark-golden);
@@ -119,4 +120,54 @@
 .heartShape:hover.heartShape svg {
   fill: rgba(0, 0, 0, 0.8);
   cursor: pointer;
+}
+
+/* For smaller devices */
+@media screen and (max-width: 677px) {
+  .searchItem {
+    flex-direction: column;
+  }
+
+  .siImgContainer {
+    width: 100%;
+  }
+
+  .siImg {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  /* Heart shape */
+  .heartShape {
+    height: 48px;
+    top: 20px;
+    right: 20px;
+  }
+
+  .heartShape svg {
+    stroke-width: 8px;
+  }
+
+  /* Reviews */
+  .siTotalReview {
+    box-sizing: border-box;
+    line-height: 2;
+    width: 100%;
+  }
+
+  /* rating button */
+  .siReviewBtn {
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* show prices button */
+  .siShowPriceBtn {
+    width: 100%;
+  }
 }
