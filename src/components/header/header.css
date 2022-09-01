@@ -156,7 +156,6 @@
 
 .optionCounterButton:disabled {
   cursor: not-allowed;
-  background-color: var(--clr-light-grey);
   opacity: 0.5;
 }
 
@@ -311,11 +310,11 @@
     cursor: pointer;
   }
 
-  .optionCounterButton:disabled {
+  /* .optionCounterButton:disabled {
     cursor: not-allowed;
     background-color: var(--clr-light-grey);
     opacity: 0.5;
-  }
+  } */
 
   /* media query */
   @media screen and (max-width: 677px) {

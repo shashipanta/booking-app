@@ -5,7 +5,7 @@
   --clr-dark-golden: #ff8000;
   --bg-light-blue: #003580;
   --clr--border: #949494;
-  /* --clr-light-grey: hsla(0, 0%, 100%, 0.1); */
+  --clr-light-grey-disabled: hsla(0, 0%, 100%, 0.1);
   --clr-hover-menu: #1a4a8d;
   --clr-hover-button: rgb(216, 216, 216);
   --yellow-border: solid 4px var(--clr-light-golden);
