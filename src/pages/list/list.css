@@ -1,3 +1,6 @@
+:root {
+  --clr-light-golden: #febb02;
+}
 /* main container that holds the entire skeleton */
 .mainContainer {
   width: 100%;
@@ -25,7 +28,7 @@
   padding: 1em;
   position: sticky;
   top: 80px;
-  max-height: 500px;
+  max-height: 470px;
 }
 
 .lsItem {
