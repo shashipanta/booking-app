@@ -1,0 +1,131 @@
+.hotelContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hotelWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hotelTitle {
+  font-size: 24px;
+}
+
+.hotelAddress {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hotelAddress .locationIcon {
+  color: var(--clr-blue-primary);
+}
+
+.hotelDistance {
+  color: var(--clr-blue-primary);
+  font-weight: 500;
+}
+
+.hotelPriceHighlight {
+  color: #008009;
+  font-weight: 500;
+}
+
+.hotelImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hotelImgWrapper {
+  width: 33%;
+}
+
+.hotelImg {
+  width: 100%;
+  max-height: 10em;
+  object-fit: cover;
+}
+
+.hotelDetails {
+  display: flex;
+  gap: 2em;
+}
+
+.hotelDetailsTexts {
+  flex: 1;
+  text-align: justify;
+}
+
+/* Hotel's More Details */
+.hotelDetailsPrice {
+  background: #ebf3ff;
+  color: #494949;
+  display: flex;
+  gap: 0.5em;
+  flex-direction: column;
+  padding: 1em;
+  width: 400px;
+}
+
+.hotelDetailsPrice h1 {
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.locationIcon {
+  font-size: 2em;
+}
+
+.hotelLocationInfo {
+  display: flex;
+  gap: 2em;
+}
+
+.locationInfo {
+  font-size: 13px;
+}
+
+/* Parking custom icon */
+.parkingIconCircle {
+  border: solid 2px black;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 0.1em 0.5em;
+  margin-right: 1em;
+}
+
+.hotelDetailsPrice button {
+  width: 100%;
+  padding: 1em;
+  border-radius: 0;
+  margin-top: 2em;
+}
+
+.hotelDetailsPrice button:hover {
+  background: var(--bg-light-blue);
+}
+
+/* Media Queries */
+@media screen and (max-width: 677px) {
+  .hotelContainer {
+    padding-inline: 1em;
+  }
+
+  .hotelDetails {
+    flex-direction: column;
+  }
+
+  /* Additional information about hotel */
+  .hotelDetailsPrice {
+    box-sizing: border-box;
+    width: 100%;
+    padding-inline: 0;
+  }
+}
