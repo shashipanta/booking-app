@@ -1,9 +1,15 @@
-import "./filledButton.css"
+import "./filledButton.css";
 
 function FilledButton(props) {
-    return (
-        <button className="filledBtn">{props.btnName}</button>
-    )
+  console.log(props.btnType == "primary");
+  let btnClass = "filledBtn";
+  if (props.btnType == "primary") {
+    btnClass = "filledBtn-primary";
+  }
+
+  console.log(btnClass);
+
+  return <button className={btnClass}>{props.btnName}</button>;
 }
 
 export default FilledButton;
