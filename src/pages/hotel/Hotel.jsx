@@ -45,7 +45,11 @@ const Hotel = () => {
       <Header type="list" />
       <div className="hotelContainer">
         <div className="hotelWrapper">
-          <h1 className="hotelTitle">Grand Hotel</h1>
+          <div className="hotelTitleContainer">
+            {/* Top hanging book now */}
+            <FilledButton btnName="Reserve Now" btnType="primary" />
+            <h1 className="hotelTitle">Grand Hotel</h1>
+          </div>
           <div className="hotelAddress">
             <FontAwesomeIcon icon={faLocationDot} className="locationIcon" />
             <span>
