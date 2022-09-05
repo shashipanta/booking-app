@@ -21,7 +21,7 @@ const SearchItem = () => {
     <div className="searchItem">
       <div className="siImgContainer">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/square200/349433113.webp?k=4b43e407ec757663cb7396662afabbd8e177a1001884ee0e024e8f79667038ea&o=&s=1"
+          src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/349433113.jpg?k=475a7e2bc02967d14ca289ffbdb3d55ad1fe09d0a0cc93158c7ad76be24da1d6&o=&hp=1"
           alt=""
           srcset=""
           className="siImg"
