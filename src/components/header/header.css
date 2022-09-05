@@ -108,6 +108,7 @@
 }
 
 .headerSearchText {
+  width: 100%;
   color: #3f3f3f;
   cursor: pointer;
 }
